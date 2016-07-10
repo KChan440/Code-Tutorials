@@ -35,7 +35,7 @@ x = 5
 
 if x < 10:
     x += 10
-print x
+print(x)
 ```
 **Returns**
 ```
@@ -60,7 +60,7 @@ if x == 5:
 else:
     x += 100
     
-print x
+print(x)
 ```   
 **Returns**
 ```
@@ -85,7 +85,7 @@ if x == 5:
 elif x == 0:
 	x += 5
     
-print x
+print(x)
 ```
 **Returns**
 ```
@@ -112,7 +112,7 @@ if x == 5 or x == 0:
 else:
 	x += 5
     
-print x
+print(x)
 ```
 **Returns**
 ```
@@ -130,7 +130,7 @@ if x == 5 and x == 0:
 else:
 	x += 5
     
-print x
+print(x)
 ```
 **Returns**
 ```
@@ -139,7 +139,7 @@ print x
 Of course, a number cannot be equal to both 5 and 0, so our first if clause returns FALSE.  As a result, we execute the code under our "else:", ```x += 5```, giving a final value of 5 to ```x```.
 
 ## Examples
-Sometimes it might be difficult to see how exactly if-statements work.  So here are a few exampels of if-statements and their results.  Try and guess what each "print x" returns!
+Sometimes it might be difficult to see how exactly if-statements work.  So here are a few exampels of if-statements and their results.  Try and guess what each "print(x)" returns!
 
 **Example 1**
 ```
@@ -150,7 +150,7 @@ if x == 5 and x == 0:
 elif x < 100:
 	x += 100
     
-print x
+print(x)
 ```
 **Returns**
 ```
@@ -167,7 +167,7 @@ if (x == 5 and x == 0) or x == 10:
 elif x < 100:
     x += 100
     
-print x
+print(x)
 ```
 **Returns**
 ```
@@ -187,7 +187,7 @@ else:
 if x == 10:
     x += 100
     
-print x
+print(x)
 ```
 **Returns**
 ```
